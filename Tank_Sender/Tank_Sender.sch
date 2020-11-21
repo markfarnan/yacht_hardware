@@ -25,7 +25,7 @@ AR Path="/5FB12AF7/5FB2383C" Ref="R?"  Part="1"
 AR Path="/5FB2383C" Ref="R102"  Part="1" 
 F 0 "R102" H 6520 3196 50  0000 L CNN
 F 1 "470" H 6520 3105 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 6380 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 3150 50  0001 C CNN
 F 3 "~" H 6450 3150 50  0001 C CNN
 F 4 "" H 6450 3150 50  0001 C CNN "LCSC"
 	1    6450 3150
@@ -102,7 +102,7 @@ F 0 "D101" V 6404 4029 50  0000 L CNN
 F 1 "MM2Z70" V 6495 4029 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323" H 6450 3950 50  0001 C CNN
 F 3 "" H 6450 3950 50  0001 C CNN
-F 4 "C118617" H 6450 3950 50  0001 C CNN "LCSC"
+F 4 "" H 6450 3950 50  0001 C CNN "LCSC"
 	1    6450 3950
 	0    -1   1    0   
 $EndComp
@@ -171,7 +171,7 @@ AR Path="/5FB12AF7/5FB23882" Ref="R?"  Part="1"
 AR Path="/5FB23882" Ref="R101"  Part="1" 
 F 0 "R101" V 4600 3700 50  0000 L CNN
 F 1 "2K" V 4700 3700 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 4730 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4730 3800 50  0001 C CNN
 F 3 "~" H 4800 3800 50  0001 C CNN
 F 4 "" H 4800 3800 50  0001 C CNN "LCSC"
 	1    4800 3800
@@ -287,8 +287,6 @@ Wire Wire Line
 	6450 3300 6450 3800
 Connection ~ 6450 3800
 Wire Wire Line
-	6450 3800 7200 3800
-Wire Wire Line
 	4950 3800 5700 3800
 $Comp
 L SH-ESP32:HT75xx-1-SOT23 U?
@@ -312,16 +310,7 @@ Text Notes 5350 2300 0    50   ~ 0
 Input voltage up to 40V
 Connection ~ 7650 3800
 Wire Wire Line
-	8750 4850 8750 3800
-Wire Wire Line
-	7650 3800 8750 3800
-Connection ~ 8750 3800
-Wire Wire Line
-	8750 3800 9000 3800
-Wire Wire Line
 	4300 3800 4650 3800
-Wire Wire Line
-	4050 4850 8750 4850
 $Comp
 L power:GND #PWR0107
 U 1 1 5FB72B6A
@@ -374,11 +363,7 @@ Text Label 2250 2600 0    50   ~ 0
 GPIO_AD
 Text Label 2250 2700 0    50   ~ 0
 VIN_PROT
-Wire Wire Line
-	4050 4850 4050 3000
-Wire Wire Line
-	4050 3000 1600 3000
-Text Label 2250 3000 0    50   ~ 0
+Text Label 8300 3800 0    50   ~ 0
 Tank
 $Comp
 L Connector_Generic:Conn_01x07 J101
@@ -391,9 +376,6 @@ F 3 "~" H 1400 2700 50  0001 C CNN
 	1    1400 2700
 	-1   0    0    -1  
 $EndComp
-Connection ~ 8750 4850
-Wire Wire Line
-	9000 4850 8750 4850
 $Comp
 L power:GND #PWR0109
 U 1 1 5FB71B30
@@ -445,4 +427,36 @@ F 4 "C376075" H 9200 4950 50  0001 C CNN "LCSC"
 	1    9200 4950
 	1    0    0    1   
 $EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5FBFFD61
+P 1800 3050
+AR Path="/5FBFFD61" Ref="#PWR0110"  Part="1" 
+AR Path="/5C3476D8/5FBFFD61" Ref="#PWR?"  Part="1" 
+AR Path="/5CA65CC5/5FBFFD61" Ref="#PWR?"  Part="1" 
+AR Path="/5F6FAF6E/5FBFFD61" Ref="#PWR?"  Part="1" 
+AR Path="/5FB0E40B/5FBFFD61" Ref="#PWR?"  Part="1" 
+AR Path="/5FB12AF7/5FBFFD61" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0110" H 1800 2800 50  0001 C CNN
+F 1 "GND" H 1805 2877 50  0000 C CNN
+F 2 "" H 1800 3050 50  0001 C CNN
+F 3 "" H 1800 3050 50  0001 C CNN
+	1    1800 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3000 1800 3000
+Wire Wire Line
+	1800 3000 1800 3050
+Wire Wire Line
+	8750 3800 9000 3800
+Wire Wire Line
+	7650 3800 8750 3800
+Connection ~ 8750 3800
+Wire Wire Line
+	9000 4850 8750 4850
+Wire Wire Line
+	8750 4850 8750 3800
+Wire Wire Line
+	6450 3800 7200 3800
 $EndSCHEMATC

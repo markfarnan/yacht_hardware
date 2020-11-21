@@ -70,4 +70,25 @@ Text Label 2150 2600 0    50   ~ 0
 GPIO
 Wire Wire Line
 	1600 2600 2150 2600
+$Comp
+L power:GND #PWR0101
+U 1 1 5FBFDED8
+P 1900 3100
+AR Path="/5FBFDED8" Ref="#PWR0101"  Part="1" 
+AR Path="/5C3476D8/5FBFDED8" Ref="#PWR?"  Part="1" 
+AR Path="/5CA65CC5/5FBFDED8" Ref="#PWR?"  Part="1" 
+AR Path="/5F6FAF6E/5FBFDED8" Ref="#PWR?"  Part="1" 
+AR Path="/5FB0E40B/5FBFDED8" Ref="#PWR?"  Part="1" 
+AR Path="/5FB12AF7/5FBFDED8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0101" H 1900 2850 50  0001 C CNN
+F 1 "GND" H 1905 2927 50  0000 C CNN
+F 2 "" H 1900 3100 50  0001 C CNN
+F 3 "" H 1900 3100 50  0001 C CNN
+	1    1900 3100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3000 1900 3000
+Wire Wire Line
+	1900 3000 1900 3100
 $EndSCHEMATC

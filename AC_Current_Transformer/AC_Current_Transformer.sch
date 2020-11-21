@@ -14,25 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:AudioJack3 J102
-U 1 1 5FB6AAD4
-P 2400 2800
-F 0 "J102" H 2382 3125 50  0000 C CNN
-F 1 "AudioJack3" H 2382 3034 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3535NG_Horizontal" H 2400 2800 50  0001 C CNN
-F 3 "~" H 2400 2800 50  0001 C CNN
-	1    2400 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R101
 U 1 1 5FB6C641
-P 3000 2550
-F 0 "R101" H 3070 2596 50  0000 L CNN
-F 1 "120" H 3070 2505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 2550 50  0001 C CNN
-F 3 "~" H 3000 2550 50  0001 C CNN
-	1    3000 2550
+P 4900 2550
+F 0 "R101" H 4970 2596 50  0000 L CNN
+F 1 "120" H 4970 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4830 2550 50  0001 C CNN
+F 3 "~" H 4900 2550 50  0001 C CNN
+	1    4900 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -40,7 +29,7 @@ L Device:R R102
 U 1 1 5FB6D70C
 P 3350 2700
 F 0 "R102" H 3420 2746 50  0000 L CNN
-F 1 "12" H 3420 2655 50  0000 L CNN
+F 1 "10k" H 3420 2655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3280 2700 50  0001 C CNN
 F 3 "~" H 3350 2700 50  0001 C CNN
 	1    3350 2700
@@ -51,28 +40,12 @@ L Device:R R103
 U 1 1 5FB6DEF0
 P 3350 3100
 F 0 "R103" H 3420 3146 50  0000 L CNN
-F 1 "12" H 3420 3055 50  0000 L CNN
+F 1 "10k" H 3420 3055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3280 3100 50  0001 C CNN
 F 3 "~" H 3350 3100 50  0001 C CNN
 	1    3350 3100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:CP C101
-U 1 1 5FB6F307
-P 3900 3100
-F 0 "C101" H 4018 3146 50  0000 L CNN
-F 1 "CP" H 4018 3055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 2950 50  0001 C CNN
-F 3 "~" H 3900 3100 50  0001 C CNN
-	1    3900 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 2900 3000 2900
-Wire Wire Line
-	3000 2900 3350 2900
-Connection ~ 3000 2900
 Wire Wire Line
 	3350 2850 3350 2900
 Connection ~ 3350 2900
@@ -125,13 +98,7 @@ F 3 "" H 2200 1550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 2150 2600 2700
-Wire Wire Line
-	2600 2150 3000 2150
-Wire Wire Line
-	3000 2900 3000 2700
-Wire Wire Line
-	3000 2400 3000 2150
+	4900 2900 4900 2700
 Wire Wire Line
 	1500 1600 1700 1600
 Wire Wire Line
@@ -149,8 +116,6 @@ F 3 "" H 3900 3350 50  0001 C CNN
 	1    3900 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3350 2900 3900 2900
 Wire Wire Line
 	3900 2900 3900 2950
 Wire Wire Line
@@ -174,11 +139,276 @@ Wire Wire Line
 	1500 1700 1950 1700
 Wire Wire Line
 	1950 1700 1950 1450
-Wire Wire Line
-	1500 1800 3000 1800
-Wire Wire Line
-	3000 1800 3000 2150
-Connection ~ 3000 2150
 Text Label 2400 1800 0    50   ~ 0
 GPIO
+$Comp
+L Device:C C103
+U 1 1 5FB2389B
+P 5550 1950
+AR Path="/5FB2389B" Ref="C103"  Part="1" 
+AR Path="/5F9BE197/5FB2389B" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FB2389B" Ref="C?"  Part="1" 
+AR Path="/5FB0E40B/5FB2389B" Ref="C?"  Part="1" 
+AR Path="/5FB12AF7/5FB2389B" Ref="C?"  Part="1" 
+F 0 "C103" H 5665 1996 50  0000 L CNN
+F 1 "33pF" H 5665 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5588 1800 50  0001 C CNN
+F 3 "~" H 5550 1950 50  0001 C CNN
+F 4 "C1562" H 5550 1950 50  0001 C CNN "LCSC"
+	1    5550 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C104
+U 1 1 5FB238A2
+P 6000 1950
+AR Path="/5FB238A2" Ref="C104"  Part="1" 
+AR Path="/5F9BE197/5FB238A2" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FB238A2" Ref="C?"  Part="1" 
+AR Path="/5FB0E40B/5FB238A2" Ref="C?"  Part="1" 
+AR Path="/5FB12AF7/5FB238A2" Ref="C?"  Part="1" 
+F 0 "C104" H 6115 1996 50  0000 L CNN
+F 1 "33pF/50V" H 6115 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6038 1800 50  0001 C CNN
+F 3 "~" H 6000 1950 50  0001 C CNN
+F 4 "C1663" H 6000 1950 50  0001 C CNN "LCSC"
+	1    6000 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1800 5650 1800
+Wire Wire Line
+	6000 1800 5950 1800
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5FB238AD
+P 5800 1800
+AR Path="/5F89C30A/5FB238AD" Ref="FB?"  Part="1" 
+AR Path="/5F9BE197/5FB238AD" Ref="FB?"  Part="1" 
+AR Path="/5FB2AE13/5FB238AD" Ref="FB?"  Part="1" 
+AR Path="/5FB0E40B/5FB238AD" Ref="FB?"  Part="1" 
+AR Path="/5FB12AF7/5FB238AD" Ref="FB?"  Part="1" 
+AR Path="/5FB238AD" Ref="FB101"  Part="1" 
+F 0 "FB101" V 5526 1800 50  0000 C CNN
+F 1 "GZ2012D101TF" V 5617 1800 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 5730 1800 50  0001 C CNN
+F 3 "~" H 5800 1800 50  0001 C CNN
+F 4 "C1015" H 5800 1800 50  0001 C CNN "LCSC"
+	1    5800 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5FB238B4
+P 6000 2100
+AR Path="/5FB238B4" Ref="#PWR0107"  Part="1" 
+AR Path="/5C3476D8/5FB238B4" Ref="#PWR?"  Part="1" 
+AR Path="/5CA65CC5/5FB238B4" Ref="#PWR?"  Part="1" 
+AR Path="/5F6FAF6E/5FB238B4" Ref="#PWR?"  Part="1" 
+AR Path="/5FB0E40B/5FB238B4" Ref="#PWR?"  Part="1" 
+AR Path="/5FB12AF7/5FB238B4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0107" H 6000 1850 50  0001 C CNN
+F 1 "GND" H 6005 1927 50  0000 C CNN
+F 2 "" H 6000 2100 50  0001 C CNN
+F 3 "" H 6000 2100 50  0001 C CNN
+	1    6000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5FB238BA
+P 5550 2100
+AR Path="/5FB238BA" Ref="#PWR0106"  Part="1" 
+AR Path="/5C3476D8/5FB238BA" Ref="#PWR?"  Part="1" 
+AR Path="/5CA65CC5/5FB238BA" Ref="#PWR?"  Part="1" 
+AR Path="/5F6FAF6E/5FB238BA" Ref="#PWR?"  Part="1" 
+AR Path="/5FB0E40B/5FB238BA" Ref="#PWR?"  Part="1" 
+AR Path="/5FB12AF7/5FB238BA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0106" H 5550 1850 50  0001 C CNN
+F 1 "GND" H 5555 1927 50  0000 C CNN
+F 2 "" H 5550 2100 50  0001 C CNN
+F 3 "" H 5550 2100 50  0001 C CNN
+	1    5550 2100
+	1    0    0    -1  
+$EndComp
+Text Notes 900  1150 0    50   ~ 0
+Standard ‘Module’ 7 Pin header\n\nPins 1 & 2 (+3V3, GND)  never change\nPin 3 is normally the ‘I/O’ pin for the module (i.e. connects to the GPIO of SH32)\nOther pins depend on application
+$Comp
+L Device:CP C101
+U 1 1 5FB6F307
+P 3900 3100
+F 0 "C101" H 4018 3146 50  0000 L CNN
+F 1 "10uf/50V" H 4018 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3938 2950 50  0001 C CNN
+F 3 "~" H 3900 3100 50  0001 C CNN
+F 4 "C13585" H 3900 3100 50  0001 C CNN "LCSC"
+	1    3900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3 J102
+U 1 1 5FB6AAD4
+P 7400 2800
+F 0 "J102" H 7382 3125 50  0000 C CNN
+F 1 "AudioJack3" H 7382 3034 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3535NG_Horizontal" H 7400 2800 50  0001 C CNN
+F 3 "~" H 7400 2800 50  0001 C CNN
+	1    7400 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C102
+U 1 1 5FBC4BDC
+P 5550 3050
+AR Path="/5FBC4BDC" Ref="C102"  Part="1" 
+AR Path="/5F9BE197/5FBC4BDC" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FBC4BDC" Ref="C?"  Part="1" 
+AR Path="/5FB0E40B/5FBC4BDC" Ref="C?"  Part="1" 
+AR Path="/5FB12AF7/5FBC4BDC" Ref="C?"  Part="1" 
+F 0 "C102" H 5665 3096 50  0000 L CNN
+F 1 "33pF" H 5665 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5588 2900 50  0001 C CNN
+F 3 "~" H 5550 3050 50  0001 C CNN
+F 4 "C1562" H 5550 3050 50  0001 C CNN "LCSC"
+	1    5550 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C105
+U 1 1 5FBC4BE3
+P 6000 3050
+AR Path="/5FBC4BE3" Ref="C105"  Part="1" 
+AR Path="/5F9BE197/5FBC4BE3" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FBC4BE3" Ref="C?"  Part="1" 
+AR Path="/5FB0E40B/5FBC4BE3" Ref="C?"  Part="1" 
+AR Path="/5FB12AF7/5FBC4BE3" Ref="C?"  Part="1" 
+F 0 "C105" H 6115 3096 50  0000 L CNN
+F 1 "33pF/50V" H 6115 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6038 2900 50  0001 C CNN
+F 3 "~" H 6000 3050 50  0001 C CNN
+F 4 "C1663" H 6000 3050 50  0001 C CNN "LCSC"
+	1    6000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2900 5650 2900
+Wire Wire Line
+	6000 2900 5950 2900
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5FBC4BEC
+P 5800 2900
+AR Path="/5F89C30A/5FBC4BEC" Ref="FB?"  Part="1" 
+AR Path="/5F9BE197/5FBC4BEC" Ref="FB?"  Part="1" 
+AR Path="/5FB2AE13/5FBC4BEC" Ref="FB?"  Part="1" 
+AR Path="/5FB0E40B/5FBC4BEC" Ref="FB?"  Part="1" 
+AR Path="/5FB12AF7/5FBC4BEC" Ref="FB?"  Part="1" 
+AR Path="/5FBC4BEC" Ref="FB102"  Part="1" 
+F 0 "FB102" V 5526 2900 50  0000 C CNN
+F 1 "GZ2012D101TF" V 5617 2900 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 5730 2900 50  0001 C CNN
+F 3 "~" H 5800 2900 50  0001 C CNN
+F 4 "C1015" H 5800 2900 50  0001 C CNN "LCSC"
+	1    5800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5FBC4BF2
+P 6000 3200
+AR Path="/5FBC4BF2" Ref="#PWR0108"  Part="1" 
+AR Path="/5C3476D8/5FBC4BF2" Ref="#PWR?"  Part="1" 
+AR Path="/5CA65CC5/5FBC4BF2" Ref="#PWR?"  Part="1" 
+AR Path="/5F6FAF6E/5FBC4BF2" Ref="#PWR?"  Part="1" 
+AR Path="/5FB0E40B/5FBC4BF2" Ref="#PWR?"  Part="1" 
+AR Path="/5FB12AF7/5FBC4BF2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0108" H 6000 2950 50  0001 C CNN
+F 1 "GND" H 6005 3027 50  0000 C CNN
+F 2 "" H 6000 3200 50  0001 C CNN
+F 3 "" H 6000 3200 50  0001 C CNN
+	1    6000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5FBC4BF8
+P 5550 3200
+AR Path="/5FBC4BF8" Ref="#PWR0109"  Part="1" 
+AR Path="/5C3476D8/5FBC4BF8" Ref="#PWR?"  Part="1" 
+AR Path="/5CA65CC5/5FBC4BF8" Ref="#PWR?"  Part="1" 
+AR Path="/5F6FAF6E/5FBC4BF8" Ref="#PWR?"  Part="1" 
+AR Path="/5FB0E40B/5FBC4BF8" Ref="#PWR?"  Part="1" 
+AR Path="/5FB12AF7/5FBC4BF8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0109" H 5550 2950 50  0001 C CNN
+F 1 "GND" H 5555 3027 50  0000 C CNN
+F 2 "" H 5550 3200 50  0001 C CNN
+F 3 "" H 5550 3200 50  0001 C CNN
+	1    5550 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1800 4900 2400
+Connection ~ 5550 1800
+Wire Wire Line
+	6000 1800 6800 1800
+Connection ~ 6000 1800
+Wire Wire Line
+	6800 1800 6800 2700
+Wire Wire Line
+	6800 2700 7200 2700
+Wire Wire Line
+	6000 2900 6700 2900
+Connection ~ 6000 2900
+Wire Wire Line
+	3350 2900 3900 2900
+Wire Wire Line
+	3900 2900 4900 2900
+Connection ~ 3900 2900
+Connection ~ 5550 2900
+Connection ~ 4900 1800
+Wire Wire Line
+	4900 1800 5550 1800
+Connection ~ 4900 2900
+Wire Wire Line
+	4900 2900 5550 2900
+Wire Wire Line
+	1500 1800 4900 1800
+$Comp
+L power:GND #PWR0110
+U 1 1 5FBF4386
+P 1750 2300
+F 0 "#PWR0110" H 1750 2050 50  0001 C CNN
+F 1 "GND" H 1755 2127 50  0000 C CNN
+F 2 "" H 1750 2300 50  0001 C CNN
+F 3 "" H 1750 2300 50  0001 C CNN
+	1    1750 2300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2200 1750 2200
+Wire Wire Line
+	1750 2200 1750 2300
+$Comp
+L Connector_Generic:Conn_01x02 J103
+U 1 1 5FC08111
+P 7350 3700
+F 0 "J103" H 7268 3375 50  0000 C CNN
+F 1 "Conn_01x02" H 7268 3466 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 7350 3700 50  0001 C CNN
+F 3 "~" H 7350 3700 50  0001 C CNN
+	1    7350 3700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6800 2700 6800 3600
+Wire Wire Line
+	6800 3600 7150 3600
+Connection ~ 6800 2700
+Wire Wire Line
+	6700 2900 6700 3700
+Wire Wire Line
+	6700 3700 7150 3700
+Connection ~ 6700 2900
+Wire Wire Line
+	6700 2900 7200 2900
 $EndSCHEMATC
