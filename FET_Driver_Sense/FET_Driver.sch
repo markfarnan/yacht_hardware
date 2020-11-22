@@ -202,10 +202,10 @@ U 1 1 5FB9C499
 P 8950 3100
 F 0 "J102" H 9030 3142 50  0000 L CNN
 F 1 "Out" H 9030 3051 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.81_1x03_P3.81mm_Vertical" H 8950 3100 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_3-G-3.81_1x03_P3.81mm_Horizontal" H 8950 3100 50  0001 C CNN
 F 3 "~" H 8950 3100 50  0001 C CNN
 	1    8950 3100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0101
