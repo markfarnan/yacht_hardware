@@ -289,7 +289,7 @@ Connection ~ 6450 3800
 Wire Wire Line
 	4950 3800 5700 3800
 $Comp
-L SH-ESP32:HT75xx-1-SOT23 U?
+L YachtHardware:HT75xx-1-SOT23 U?
 U 1 1 5FB238C7
 P 5700 2800
 AR Path="/5C348474/5FB238C7" Ref="U?"  Part="1" 

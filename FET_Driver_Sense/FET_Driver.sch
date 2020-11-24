@@ -69,7 +69,7 @@ $EndComp
 Text Label 2300 2850 0    50   ~ 0
 GPIO
 $Comp
-L FET_Driver:IRF5210SPbF Q101
+L YachtHardware:IRF5210SPbF Q101
 U 1 1 5FB80F51
 P 5050 2850
 F 0 "Q101" H 5255 2896 50  0000 L CNN
@@ -166,7 +166,7 @@ $EndComp
 Text Notes 5200 3750 0    50   ~ 0
 Flyback diode for \ninductive loads
 $Comp
-L SH-ESP32:EL3H7 U101
+L YachtHardware:EL3H7 U101
 U 1 1 5FCB38F6
 P 3650 2950
 F 0 "U101" H 3650 3275 50  0000 C CNN
@@ -327,7 +327,7 @@ $EndComp
 Wire Wire Line
 	4150 5550 4150 5400
 $Comp
-L SH-ESP32:HT75xx-1-SOT23 U?
+L YachtHardware:HT75xx-1-SOT23 U?
 U 1 1 5F94C95C
 P 4150 4900
 AR Path="/5C348474/5F94C95C" Ref="U?"  Part="1" 
