@@ -69,7 +69,7 @@ $EndComp
 Text Label 2500 3450 0    50   ~ 0
 GPIO
 $Comp
-L FET_Driver:IRF5210SPbF Q101
+L YachtHardware:IRF5210SPbF Q101
 U 1 1 5FB80F51
 P 5250 3450
 F 0 "Q101" H 5455 3496 50  0000 L CNN
@@ -170,7 +170,7 @@ $EndComp
 Text Notes 5800 4000 0    50   ~ 0
 Flyback diode for inductive loads
 $Comp
-L SH-ESP32:EL3H7 U101
+L YachtHardware:EL3H7 U101
 U 1 1 5FCB38F6
 P 3850 3550
 F 0 "U101" H 3850 3875 50  0000 C CNN
