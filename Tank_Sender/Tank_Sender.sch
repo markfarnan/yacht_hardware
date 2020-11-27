@@ -99,10 +99,10 @@ AR Path="/5F6FAF6E/5FB2385B" Ref="D?"  Part="1"
 AR Path="/5FB0E40B/5FB2385B" Ref="D?"  Part="1" 
 AR Path="/5FB12AF7/5FB2385B" Ref="D?"  Part="1" 
 F 0 "D101" V 6404 4029 50  0000 L CNN
-F 1 "MM2Z70" V 6495 4029 50  0000 L CNN
+F 1 "KDZ3.3V-RTK/P" V 6495 4029 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323" H 6450 3950 50  0001 C CNN
-F 3 "" H 6450 3950 50  0001 C CNN
-F 4 "" H 6450 3950 50  0001 C CNN "LCSC"
+F 3 "https://datasheet.lcsc.com/szlcsc/KEC-Semicon-KDZ3-3V-RTK-P_C155470.pdf" H 6450 3950 50  0001 C CNN
+F 4 "C155470" H 6450 3950 50  0001 C CNN "LCSC"
 	1    6450 3950
 	0    -1   1    0   
 $EndComp
@@ -173,7 +173,7 @@ F 0 "R101" V 4600 3700 50  0000 L CNN
 F 1 "2K" V 4700 3700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4730 3800 50  0001 C CNN
 F 3 "~" H 4800 3800 50  0001 C CNN
-F 4 "" H 4800 3800 50  0001 C CNN "LCSC"
+F 4 "C22975" H 4800 3800 50  0001 C CNN "LCSC"
 	1    4800 3800
 	0    -1   1    0   
 $EndComp
@@ -187,7 +187,7 @@ Wire Wire Line
 Text Notes 6550 2650 0    50   ~ 0
 Constant current source\nFor Linear gauge reading\nApprox: 12ma
 Text Notes 7650 5300 2    50   ~ 0
-Warning: If Sensor is disconnected, this wants to float to Vin.\nZener Clamps it to not rise about 3.3v  (2.7+0.6)\n(Can be used by CPU to detect for ‘sensor not connected’)
+Warning: If Sensor is disconnected, this wants to float to Vin.\nZener Clamps it to not rise about 3.3v  \n(Can be used by CPU to detect for ‘sensor not connected’)
 $Comp
 L Device:C C103
 U 1 1 5FB2389B
