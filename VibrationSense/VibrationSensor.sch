@@ -21,6 +21,7 @@ F 0 "U101" H 6950 3500 50  0000 C CNN
 F 1 "LIS2HH12" H 7100 3400 50  0000 C CNN
 F 2 "Package_LGA:LGA-12_2x2mm_P0.5mm" H 6900 3400 50  0001 L CNN
 F 3 "www.st.com/resource/en/datasheet/lis2hh12.pdf" H 6400 2850 50  0001 C CNN
+F 4 "C221446" H 6750 2850 50  0001 C CNN "LCSC"
 	1    6750 2850
 	1    0    0    -1  
 $EndComp
