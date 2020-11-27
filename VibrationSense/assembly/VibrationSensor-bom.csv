@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,LCSC
+"4.7uF","C101","Capacitor_SMD:C_0603_1608Metric","C19666"
+"33pF/50V","C102,C103","Capacitor_SMD:C_0603_1608Metric","C1663"
+"33pF","C104,C105","Capacitor_SMD:C_0402_1005Metric","C1562"
+"100nF","C305","Capacitor_SMD:C_0402_1005Metric","C1525"
+"GZ2012D101TF","FB101,FB102","Inductor_SMD:L_0805_2012Metric","C1015"
+"MountingHole","H101","MountingHole:MountingHole_8.4mm_M8",""
+"Interface","J101","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
+"LIS2HH12","U101","Package_LGA:LGA-12_2x2mm_P0.5mm",""

@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+"33pF","C101,C103","Capacitor_SMD:C_0402_1005Metric","C1562"
+"33pF/50V","C102,C104","Capacitor_SMD:C_0603_1608Metric","C1663"
+"GREEN LED","D101,D104","LED_SMD:LED_0603_1608Metric","C72043"
+"MM1Z4V7B","D102,D105","Diode_SMD:D_SOD-123","C438304"
+"SM4007PL","D103,D106","Diode_SMD:D_SOD-123F","C64898"
+"GZ2012D101TF","FB101,FB102","Inductor_SMD:L_0805_2012Metric","C1015"
+"Interface","J101","Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal",""
+"Conn_01x03","J901","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","C358686"
+"1k","R101,R104","Resistor_SMD:R_0402_1005Metric","C11702"
+"330","R102,R105","Resistor_SMD:R_0603_1608Metric","C23138"
+"1k","R103,R106","Resistor_SMD:R_0603_1608Metric","C21190"
+"H11L1SR2M","U101,U102","yacht_hardware:SMT-6_6.4x8.5x2.54P","C20082"

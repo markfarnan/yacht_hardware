@@ -1,0 +1,12 @@
+Comment,Designator,Footprint,LCSC
+"10uF/50V","C101,C102","Capacitor_SMD:C_1206_3216Metric","C13585"
+"33pF","C103","Capacitor_SMD:C_0402_1005Metric","C1562"
+"33pF/50V","C104","Capacitor_SMD:C_0603_1608Metric","C1663"
+"KDZ3.3V-RTK/P","D101","Diode_SMD:D_SOD-323","C155470"
+"GZ2012D101TF","FB101","Inductor_SMD:L_0805_2012Metric","C1015"
+"Interface","J101","Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal",""
+"TANK","J102","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal","C376075"
+"TANK","J103","Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical","C376075"
+"2K","R101","Resistor_SMD:R_0603_1608Metric","C22975"
+"470","R102","Resistor_SMD:R_0603_1608Metric",""
+"H7550-H#","U101","Package_TO_SOT_SMD:SOT-23","C277875"
