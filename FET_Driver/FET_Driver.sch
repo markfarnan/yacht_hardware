@@ -37,12 +37,12 @@ F 3 "" H 2250 3550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J102
+L Connector_Generic:Conn_01x04 J102
 U 1 1 5FB9C499
 P 8000 3400
 F 0 "J102" H 8080 3442 50  0000 L CNN
 F 1 "Out" H 8080 3351 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.81_1x03_P3.81mm_Vertical" H 8000 3400 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.81_1x04_P3.81mm_Vertical" H 8000 3400 50  0001 C CNN
 F 3 "~" H 8000 3400 50  0001 C CNN
 	1    8000 3400
 	1    0    0    -1  
@@ -250,12 +250,12 @@ F 3 "" H 2500 2600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D102
 U 1 1 5FC5F82B
 P 2950 3950
-AR Path="/5FC5F82B" Ref="D?"  Part="1" 
+AR Path="/5FC5F82B" Ref="D102"  Part="1" 
 AR Path="/5FC50B89/5FC5F82B" Ref="D502"  Part="1" 
-F 0 "D?" V 2989 3832 50  0000 R CNN
+F 0 "D102" V 2989 3832 50  0000 R CNN
 F 1 "GREEN LED" V 2898 3832 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2950 3950 50  0001 C CNN
 F 3 "~" H 2950 3950 50  0001 C CNN
@@ -264,12 +264,12 @@ F 4 "C72043" H 2950 3950 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R103
 U 1 1 5FC5F831
 P 2950 3450
-AR Path="/5FC5F831" Ref="R?"  Part="1" 
+AR Path="/5FC5F831" Ref="R103"  Part="1" 
 AR Path="/5FC50B89/5FC5F831" Ref="R502"  Part="1" 
-F 0 "R?" H 3020 3496 50  0000 L CNN
+F 0 "R103" H 3020 3496 50  0000 L CNN
 F 1 "1k" H 3020 3405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2880 3450 50  0001 C CNN
 F 3 "~" H 2950 3450 50  0001 C CNN
@@ -299,4 +299,7 @@ Wire Wire Line
 	2950 3600 2950 3800
 Wire Wire Line
 	2950 4100 2950 4300
+Wire Wire Line
+	7800 3500 7800 3600
+Connection ~ 7800 3500
 $EndSCHEMATC
