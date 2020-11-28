@@ -1,0 +1,27 @@
+(module Header_1x04_P2.54mm_SurfaceWires (layer F.Cu) (tedit 5FC24471)
+  (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
+  (tags "Through hole pin header THT 1x04 2.54mm single row")
+  (attr virtual)
+  (fp_text reference J101 (at 0 -2.33 -180) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Interface (at 0 9.95 -180) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 4.1 -1.2) (end -4.1 -1.2) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 4.1 8.8) (end 4.1 -1.2) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -4.1 8.8) (end 4.1 8.8) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -4.1 -1.2) (end -4.1 8.8) (layer F.CrtYd) (width 0.05))
+  (fp_text user %R (at 0 3.81 -270) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 4 smd rect (at 0 7.62) (size 8 2) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 0 5.08) (size 8 2) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 2.54) (size 8 2) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0 0) (size 8 2) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

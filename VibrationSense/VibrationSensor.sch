@@ -14,18 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Sensor_Motion:LIS2HH12 U101
-U 1 1 5FC511BE
-P 6750 2850
-F 0 "U101" H 6950 3500 50  0000 C CNN
-F 1 "LIS2HH12" H 7100 3400 50  0000 C CNN
-F 2 "Package_LGA:LGA-12_2x2mm_P0.5mm" H 6900 3400 50  0001 L CNN
-F 3 "www.st.com/resource/en/datasheet/lis2hh12.pdf" H 6400 2850 50  0001 C CNN
-F 4 "C221446" H 6750 2850 50  0001 C CNN "LCSC"
-	1    6750 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR0101
 U 1 1 5FC6454B
 P 6100 2450
@@ -39,18 +27,18 @@ $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5FC649A1
-P 2200 2500
+P 1950 3350
 AR Path="/5FC649A1" Ref="#PWR0102"  Part="1" 
 AR Path="/5C3476D8/5FC649A1" Ref="#PWR?"  Part="1" 
 AR Path="/5CA65CC5/5FC649A1" Ref="#PWR?"  Part="1" 
 AR Path="/5F6FAF6E/5FC649A1" Ref="#PWR?"  Part="1" 
 AR Path="/5FB0E40B/5FC649A1" Ref="#PWR?"  Part="1" 
 AR Path="/5FB12AF7/5FC649A1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0102" H 2200 2250 50  0001 C CNN
-F 1 "GND" H 2205 2327 50  0000 C CNN
-F 2 "" H 2200 2500 50  0001 C CNN
-F 3 "" H 2200 2500 50  0001 C CNN
-	1    2200 2500
+F 0 "#PWR0102" H 1950 3100 50  0001 C CNN
+F 1 "GND" H 1955 3177 50  0000 C CNN
+F 2 "" H 1950 3350 50  0001 C CNN
+F 3 "" H 1950 3350 50  0001 C CNN
+	1    1950 3350
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -65,12 +53,12 @@ Connection ~ 6100 2650
 $Comp
 L power:+3.3V #PWR0103
 U 1 1 5FC6A4D4
-P 2200 3300
-F 0 "#PWR0103" H 2200 3150 50  0001 C CNN
-F 1 "+3.3V" H 2215 3473 50  0000 C CNN
-F 2 "" H 2200 3300 50  0001 C CNN
-F 3 "" H 2200 3300 50  0001 C CNN
-	1    2200 3300
+P 1950 2350
+F 0 "#PWR0103" H 1950 2200 50  0001 C CNN
+F 1 "+3.3V" H 1965 2523 50  0000 C CNN
+F 2 "" H 1950 2350 50  0001 C CNN
+F 3 "" H 1950 2350 50  0001 C CNN
+	1    1950 2350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -94,18 +82,18 @@ Connection ~ 6750 2150
 $Comp
 L power:GND #PWR0105
 U 1 1 5FC6C2E3
-P 6750 3500
+P 6800 3500
 AR Path="/5FC6C2E3" Ref="#PWR0105"  Part="1" 
 AR Path="/5C3476D8/5FC6C2E3" Ref="#PWR?"  Part="1" 
 AR Path="/5CA65CC5/5FC6C2E3" Ref="#PWR?"  Part="1" 
 AR Path="/5F6FAF6E/5FC6C2E3" Ref="#PWR?"  Part="1" 
 AR Path="/5FB0E40B/5FC6C2E3" Ref="#PWR?"  Part="1" 
 AR Path="/5FB12AF7/5FC6C2E3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0105" H 6750 3250 50  0001 C CNN
-F 1 "GND" H 6755 3327 50  0000 C CNN
-F 2 "" H 6750 3500 50  0001 C CNN
-F 3 "" H 6750 3500 50  0001 C CNN
-	1    6750 3500
+F 0 "#PWR0105" H 6800 3250 50  0001 C CNN
+F 1 "GND" H 6805 3327 50  0000 C CNN
+F 2 "" H 6800 3500 50  0001 C CNN
+F 3 "" H 6800 3500 50  0001 C CNN
+	1    6800 3500
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -113,33 +101,12 @@ Wire Wire Line
 Wire Wire Line
 	6650 3450 6750 3450
 Wire Wire Line
-	6750 3450 6750 3500
-Wire Wire Line
 	6750 3350 6750 3450
 Connection ~ 6750 3450
 Wire Wire Line
 	6850 3350 6850 3450
 Wire Wire Line
-	6850 3450 6750 3450
-$Comp
-L power:GND #PWR0106
-U 1 1 5FC6E275
-P 7250 3500
-AR Path="/5FC6E275" Ref="#PWR0106"  Part="1" 
-AR Path="/5C3476D8/5FC6E275" Ref="#PWR?"  Part="1" 
-AR Path="/5CA65CC5/5FC6E275" Ref="#PWR?"  Part="1" 
-AR Path="/5F6FAF6E/5FC6E275" Ref="#PWR?"  Part="1" 
-AR Path="/5FB0E40B/5FC6E275" Ref="#PWR?"  Part="1" 
-AR Path="/5FB12AF7/5FC6E275" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0106" H 7250 3250 50  0001 C CNN
-F 1 "GND" H 7255 3327 50  0000 C CNN
-F 2 "" H 7250 3500 50  0001 C CNN
-F 3 "" H 7250 3500 50  0001 C CNN
-	1    7250 3500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7250 3150 7250 3500
+	6850 3450 6800 3450
 $Comp
 L Device:C C?
 U 1 1 5FD1C702
@@ -244,7 +211,7 @@ U 1 1 5FC632AA
 P 1750 2850
 F 0 "J101" H 1750 3200 50  0000 C CNN
 F 1 "Interface" H 1750 3100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1750 2850 50  0001 C CNN
+F 2 "VibrationSense:Header_1x04_P2.54mm_SurfaceWires" H 1750 2850 50  0001 C CNN
 F 3 "~" H 1750 2850 50  0001 C CNN
 	1    1750 2850
 	-1   0    0    -1  
@@ -435,4 +402,39 @@ Connection ~ 3900 3500
 Wire Wire Line
 	4350 3500 5100 3500
 Connection ~ 4350 3500
+Wire Wire Line
+	6950 3350 6950 3450
+Wire Wire Line
+	6950 3450 6850 3450
+Connection ~ 6850 3450
+Wire Wire Line
+	7050 3350 7050 3450
+Wire Wire Line
+	7050 3450 6950 3450
+Connection ~ 6950 3450
+$Comp
+L Sensor_Motion:LIS2DH U101
+U 1 1 5FDD8AF9
+P 6750 2850
+F 0 "U101" H 7250 2700 50  0000 L CNN
+F 1 "LIS2DH12TR" H 7250 2600 50  0000 L CNN
+F 2 "Package_LGA:LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y" H 6750 2250 50  0001 C CNN
+F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf" H 6400 2850 50  0001 C CNN
+F 4 "C110926" H 6750 2850 50  0001 C CNN "LCSC"
+	1    6750 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3350 6550 3450
+Wire Wire Line
+	6550 3450 6650 3450
+Connection ~ 6650 3450
+Wire Wire Line
+	6800 3500 6800 3450
+Connection ~ 6800 3450
+Wire Wire Line
+	6800 3450 6750 3450
+Connection ~ 2200 3350
+Connection ~ 1950 2350
+Connection ~ 1950 3350
 $EndSCHEMATC
