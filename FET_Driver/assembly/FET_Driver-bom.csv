@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC
+"SM4007PL","D101","Diode_SMD:D_SOD-123F","C64898"
+"GREEN LED","D102","LED_SMD:LED_0603_1608Metric","C72043"
+"Interface","J101","Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal",""
+"Out","J102","Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.81_1x04_P3.81mm_Vertical",""
+"IRF5210STRLPBF","Q101","Package_TO_SOT_SMD:TO-263-2","C2622"
+"10k","R101","Resistor_SMD:R_0603_1608Metric","C25804"
+"1k","R102,R103","Resistor_SMD:R_0603_1608Metric","C21190"
+"220R","R901","Resistor_SMD:R_0603_1608Metric","C22962"
+"EL3H7(C)(TA)-G","U101","Package_SO:SOP-4_4.4x2.6mm_P1.27mm","C92243"
