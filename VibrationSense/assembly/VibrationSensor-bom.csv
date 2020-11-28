@@ -5,5 +5,5 @@ Comment,Designator,Footprint,LCSC
 "100nF","C305","Capacitor_SMD:C_0402_1005Metric","C1525"
 "GZ2012D101TF","FB101,FB102","Inductor_SMD:L_0805_2012Metric","C1015"
 "MountingHole","H101","MountingHole:MountingHole_8.4mm_M8",""
-"Interface","J101","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
-"LIS2HH12","U101","Package_LGA:LGA-12_2x2mm_P0.5mm",""
+"Interface","J101","VibrationSense:Header_1x04_P2.54mm_SurfaceWires",""
+"LIS2DH12TR","U101","Package_LGA:LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y","C110926"
