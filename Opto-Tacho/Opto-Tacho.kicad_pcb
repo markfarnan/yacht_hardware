@@ -141,6 +141,7 @@
   (module yacht_hardware:SMT-6_6.4x8.5x2.54P (layer F.Cu) (tedit 5FC2E297) (tstamp 5FBACA6A)
     (at 132.975 81.75 270)
     (path /5FC23E4F)
+    (attr smd)
     (fp_text reference U102 (at 0 0.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -175,6 +176,7 @@
   (module yacht_hardware:SMT-6_6.4x8.5x2.54P (layer F.Cu) (tedit 5FC2E297) (tstamp 5FBAC387)
     (at 132.975 72.6 270)
     (path /5FBACF69)
+    (attr smd)
     (fp_text reference U101 (at 0 0.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
