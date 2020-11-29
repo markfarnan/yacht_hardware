@@ -1,0 +1,1492 @@
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.8-0-10_14)")
+
+  (general
+    (thickness 1.6)
+    (drawings 9)
+    (tracks 14)
+    (zones 0)
+    (modules 100)
+    (nets 43)
+  )
+
+  (page A4)
+  (layers
+    (0 F.Cu signal)
+    (31 B.Cu signal)
+    (32 B.Adhes user)
+    (33 F.Adhes user)
+    (34 B.Paste user)
+    (35 F.Paste user)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
+    (38 B.Mask user)
+    (39 F.Mask user)
+    (40 Dwgs.User user)
+    (41 Cmts.User user)
+    (42 Eco1.User user)
+    (43 Eco2.User user)
+    (44 Edge.Cuts user)
+    (45 Margin user)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
+    (48 B.Fab user)
+    (49 F.Fab user)
+  )
+
+  (setup
+    (last_trace_width 1)
+    (user_trace_width 0.1)
+    (user_trace_width 0.2)
+    (user_trace_width 0.25)
+    (user_trace_width 0.261112)
+    (user_trace_width 0.4)
+    (user_trace_width 0.6)
+    (user_trace_width 0.8)
+    (user_trace_width 1)
+    (trace_clearance 0.127)
+    (zone_clearance 0.508)
+    (zone_45_only no)
+    (trace_min 0.09)
+    (via_size 0.8)
+    (via_drill 0.4)
+    (via_min_size 0.45)
+    (via_min_drill 0.2)
+    (user_via 0.45 0.2)
+    (user_via 0.6 0.4)
+    (user_via 0.8 0.4)
+    (user_via 1 0.6)
+    (uvia_size 0.3)
+    (uvia_drill 0.1)
+    (uvias_allowed no)
+    (uvia_min_size 0.2)
+    (uvia_min_drill 0.1)
+    (edge_width 0.05)
+    (segment_width 0.2)
+    (pcb_text_width 0.3)
+    (pcb_text_size 1.5 1.5)
+    (mod_edge_width 0.12)
+    (mod_text_size 1 1)
+    (mod_text_width 0.16)
+    (pad_size 1.524 1.524)
+    (pad_drill 0.762)
+    (pad_to_mask_clearance 0.05)
+    (aux_axis_origin 0 0)
+    (visible_elements FFFFFF7F)
+    (pcbplotparams
+      (layerselection 0x010fc_ffffffff)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (excludeedgelayer true)
+      (linewidth 0.100000)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (padsonsilk false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 0)
+      (scaleselection 1)
+      (outputdirectory "assembly"))
+  )
+
+  (net 0 "")
+  (net 1 GND)
+  (net 2 +3V3)
+  (net 3 +5V)
+  (net 4 /BD0)
+  (net 5 /BD1)
+  (net 6 /BD2)
+  (net 7 /BD3)
+  (net 8 /VIO)
+  (net 9 /BD4)
+  (net 10 /BD5)
+  (net 11 /BD6)
+  (net 12 /BD7)
+  (net 13 /BC0)
+  (net 14 /BC1)
+  (net 15 /BC2)
+  (net 16 /BC3)
+  (net 17 /BC4)
+  (net 18 /BC5)
+  (net 19 /BC6)
+  (net 20 /BC7)
+  (net 21 /PWREN#)
+  (net 22 /DATA)
+  (net 23 /CLK)
+  (net 24 /CS)
+  (net 25 /AC7)
+  (net 26 /SUSPEND#)
+  (net 27 /AC5)
+  (net 28 /AC6)
+  (net 29 /AC4)
+  (net 30 /AC2)
+  (net 31 /AC3)
+  (net 32 /AC0)
+  (net 33 /AC1)
+  (net 34 /AD6)
+  (net 35 /AD7)
+  (net 36 /AD4)
+  (net 37 /AD5)
+  (net 38 /AD3)
+  (net 39 /AD1)
+  (net 40 /AD2)
+  (net 41 /AD0)
+  (net 42 /RESET#)
+
+  (net_class Default "This is the default net class."
+    (clearance 0.127)
+    (trace_width 0.2)
+    (via_dia 0.8)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (diff_pair_width 0.261112)
+    (diff_pair_gap 0.2032)
+    (add_net +3V3)
+    (add_net +5V)
+    (add_net /AC0)
+    (add_net /AC1)
+    (add_net /AC2)
+    (add_net /AC3)
+    (add_net /AC4)
+    (add_net /AC5)
+    (add_net /AC6)
+    (add_net /AC7)
+    (add_net /AD0)
+    (add_net /AD1)
+    (add_net /AD2)
+    (add_net /AD3)
+    (add_net /AD4)
+    (add_net /AD5)
+    (add_net /AD6)
+    (add_net /AD7)
+    (add_net /BC0)
+    (add_net /BC1)
+    (add_net /BC2)
+    (add_net /BC3)
+    (add_net /BC4)
+    (add_net /BC5)
+    (add_net /BC6)
+    (add_net /BC7)
+    (add_net /BD0)
+    (add_net /BD1)
+    (add_net /BD2)
+    (add_net /BD3)
+    (add_net /BD4)
+    (add_net /BD5)
+    (add_net /BD6)
+    (add_net /BD7)
+    (add_net /CLK)
+    (add_net /CS)
+    (add_net /DATA)
+    (add_net /PWREN#)
+    (add_net /RESET#)
+    (add_net /SUSPEND#)
+    (add_net /VIO)
+    (add_net GND)
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35607)
+    (at 106.68 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC355F7)
+    (at 106.68 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC355EF)
+    (at 106.68 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC355E7)
+    (at 106.68 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC355DF)
+    (at 106.68 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC355D7)
+    (at 106.68 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC355CF)
+    (at 106.68 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35579)
+    (at 137.16 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35575)
+    (at 129.54 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35571)
+    (at 139.7 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC3556D)
+    (at 132.08 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35569)
+    (at 124.46 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35565)
+    (at 119.38 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35561)
+    (at 109.22 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC3555D)
+    (at 121.92 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35555)
+    (at 111.76 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35551)
+    (at 114.3 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC3554D)
+    (at 134.62 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35549)
+    (at 127 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35545)
+    (at 116.84 96.52)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35509)
+    (at 137.16 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35505)
+    (at 129.54 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35501)
+    (at 139.7 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC354FD)
+    (at 132.08 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC354F9)
+    (at 119.38 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC354F5)
+    (at 124.46 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC354F1)
+    (at 109.22 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC354ED)
+    (at 121.92 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC354E5)
+    (at 111.76 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC354E1)
+    (at 114.3 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC354DD)
+    (at 134.62 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC354D9)
+    (at 127 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC354D5)
+    (at 116.84 93.98)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35499)
+    (at 137.16 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35495)
+    (at 129.54 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35491)
+    (at 139.7 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC3548D)
+    (at 132.08 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35489)
+    (at 119.38 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35485)
+    (at 124.46 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35481)
+    (at 109.22 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC3547D)
+    (at 121.92 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35475)
+    (at 111.76 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35471)
+    (at 114.3 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC3546D)
+    (at 134.62 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35469)
+    (at 127 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35465)
+    (at 116.84 91.44)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35429)
+    (at 132.08 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35425)
+    (at 109.22 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35421)
+    (at 137.16 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC3541D)
+    (at 129.54 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35419)
+    (at 139.7 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35415)
+    (at 127 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35411)
+    (at 116.84 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35409)
+    (at 111.76 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35405)
+    (at 121.92 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35401)
+    (at 114.3 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC353FD)
+    (at 134.62 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC353F9)
+    (at 119.38 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC353F5)
+    (at 124.46 88.9)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC353B9)
+    (at 132.08 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC353B5)
+    (at 109.22 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC353B1)
+    (at 137.16 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC353AD)
+    (at 129.54 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC353A9)
+    (at 139.7 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC353A5)
+    (at 127 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC353A1)
+    (at 116.84 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35399)
+    (at 111.76 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35395)
+    (at 121.92 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35391)
+    (at 114.3 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC3538D)
+    (at 134.62 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35389)
+    (at 119.38 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35385)
+    (at 124.46 86.36)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35349)
+    (at 129.54 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35345)
+    (at 139.7 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35341)
+    (at 127 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC3533D)
+    (at 116.84 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35335)
+    (at 111.76 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35331)
+    (at 121.92 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC3532D)
+    (at 114.3 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35329)
+    (at 134.62 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35325)
+    (at 119.38 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35321)
+    (at 124.46 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC3531D)
+    (at 132.08 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35319)
+    (at 109.22 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35315)
+    (at 137.16 83.82)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC35305)
+    (at 139.7 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC352FD)
+    (at 137.16 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC352ED)
+    (at 134.62 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC352E5)
+    (at 132.08 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC352DD)
+    (at 129.54 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC352D5)
+    (at 127 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC352CD)
+    (at 124.46 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC352C5)
+    (at 121.92 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC352BD)
+    (at 119.38 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC352B5)
+    (at 116.84 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC352AD)
+    (at 114.3 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC352A5)
+    (at 111.76 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module yacht_hardware:ProtoPad-Drill1mm (layer F.Cu) (tedit 5FC168B0) (tstamp 5FC3529F)
+    (at 109.22 81.28)
+    (fp_text reference REF** (at 0 1.95) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ProtoPad-Drill1mm (at 0 -1.8) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.05) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 5FC326CF)
+    (at 109.22 101.6 90)
+    (descr "Through hole straight pin header, 2x13, 2.54mm pitch, double rows")
+    (tags "Through hole pin header THT 2x13 2.54mm double row")
+    (path /5FEC23F0)
+    (attr virtual)
+    (fp_text reference J103 (at 1.27 -2.33 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value IO1 (at 1.27 32.81 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 0 -1.27) (end 3.81 -1.27) (layer F.Fab) (width 0.1))
+    (fp_line (start 3.81 -1.27) (end 3.81 31.75) (layer F.Fab) (width 0.1))
+    (fp_line (start 3.81 31.75) (end -1.27 31.75) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.27 31.75) (end -1.27 0) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.27 0) (end 0 -1.27) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.33 31.81) (end 3.87 31.81) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.33 1.27) (end -1.33 31.81) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.87 -1.33) (end 3.87 31.81) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.33 1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.27 1.27) (end 1.27 -1.33) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.27 -1.33) (end 3.87 -1.33) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.33 0) (end -1.33 -1.33) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.33 -1.33) (end 0 -1.33) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -1.8) (end -1.8 32.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.8 32.25) (end 4.35 32.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 4.35 32.25) (end 4.35 -1.8) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 4.35 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
+    (fp_text user %R (at 1.27 15.24) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 26 thru_hole oval (at 2.54 30.48 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 25 /AC7))
+    (pad 25 thru_hole oval (at 0 30.48 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 26 /SUSPEND#))
+    (pad 24 thru_hole oval (at 2.54 27.94 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 27 /AC5))
+    (pad 23 thru_hole oval (at 0 27.94 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 28 /AC6))
+    (pad 22 thru_hole oval (at 2.54 25.4 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 29 /AC4))
+    (pad 21 thru_hole oval (at 0 25.4 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 8 /VIO))
+    (pad 20 thru_hole oval (at 2.54 22.86 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 30 /AC2))
+    (pad 19 thru_hole oval (at 0 22.86 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 31 /AC3))
+    (pad 18 thru_hole oval (at 2.54 20.32 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 32 /AC0))
+    (pad 17 thru_hole oval (at 0 20.32 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 33 /AC1))
+    (pad 16 thru_hole oval (at 2.54 17.78 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 34 /AD6))
+    (pad 15 thru_hole oval (at 0 17.78 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 35 /AD7))
+    (pad 14 thru_hole oval (at 2.54 15.24 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 36 /AD4))
+    (pad 13 thru_hole oval (at 0 15.24 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 37 /AD5))
+    (pad 12 thru_hole oval (at 2.54 12.7 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 38 /AD3))
+    (pad 11 thru_hole oval (at 0 12.7 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 8 /VIO))
+    (pad 10 thru_hole oval (at 2.54 10.16 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 39 /AD1))
+    (pad 9 thru_hole oval (at 0 10.16 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 40 /AD2))
+    (pad 8 thru_hole oval (at 2.54 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 42 /RESET#))
+    (pad 7 thru_hole oval (at 0 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 41 /AD0))
+    (pad 6 thru_hole oval (at 2.54 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 1 GND))
+    (pad 5 thru_hole oval (at 0 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 2 +3V3))
+    (pad 4 thru_hole oval (at 2.54 2.54 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 1 GND))
+    (pad 3 thru_hole oval (at 0 2.54 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 2 +3V3))
+    (pad 2 thru_hole oval (at 2.54 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 1 GND))
+    (pad 1 thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 2 +3V3))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x13_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 5FC3269F)
+    (at 109.22 78.74 90)
+    (descr "Through hole straight pin header, 2x13, 2.54mm pitch, double rows")
+    (tags "Through hole pin header THT 2x13 2.54mm double row")
+    (path /5FEC4C06)
+    (attr virtual)
+    (fp_text reference J102 (at 1.27 -2.33 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value IO2 (at 1.27 32.81 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 0 -1.27) (end 3.81 -1.27) (layer F.Fab) (width 0.1))
+    (fp_line (start 3.81 -1.27) (end 3.81 31.75) (layer F.Fab) (width 0.1))
+    (fp_line (start 3.81 31.75) (end -1.27 31.75) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.27 31.75) (end -1.27 0) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.27 0) (end 0 -1.27) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.33 31.81) (end 3.87 31.81) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.33 1.27) (end -1.33 31.81) (layer F.SilkS) (width 0.12))
+    (fp_line (start 3.87 -1.33) (end 3.87 31.81) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.33 1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.27 1.27) (end 1.27 -1.33) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.27 -1.33) (end 3.87 -1.33) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.33 0) (end -1.33 -1.33) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.33 -1.33) (end 0 -1.33) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -1.8) (end -1.8 32.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.8 32.25) (end 4.35 32.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 4.35 32.25) (end 4.35 -1.8) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 4.35 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
+    (fp_text user %R (at 1.27 15.24) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 26 thru_hole oval (at 2.54 30.48 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 4 /BD0))
+    (pad 25 thru_hole oval (at 0 30.48 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 5 /BD1))
+    (pad 24 thru_hole oval (at 2.54 27.94 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 6 /BD2))
+    (pad 23 thru_hole oval (at 0 27.94 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 7 /BD3))
+    (pad 22 thru_hole oval (at 2.54 25.4 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 8 /VIO))
+    (pad 21 thru_hole oval (at 0 25.4 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 9 /BD4))
+    (pad 20 thru_hole oval (at 2.54 22.86 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 10 /BD5))
+    (pad 19 thru_hole oval (at 0 22.86 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 11 /BD6))
+    (pad 18 thru_hole oval (at 2.54 20.32 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 12 /BD7))
+    (pad 17 thru_hole oval (at 0 20.32 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 13 /BC0))
+    (pad 16 thru_hole oval (at 2.54 17.78 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 14 /BC1))
+    (pad 15 thru_hole oval (at 0 17.78 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 15 /BC2))
+    (pad 14 thru_hole oval (at 2.54 15.24 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 16 /BC3))
+    (pad 13 thru_hole oval (at 0 15.24 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 17 /BC4))
+    (pad 12 thru_hole oval (at 2.54 12.7 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 8 /VIO))
+    (pad 11 thru_hole oval (at 0 12.7 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 18 /BC5))
+    (pad 10 thru_hole oval (at 2.54 10.16 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 19 /BC6))
+    (pad 9 thru_hole oval (at 0 10.16 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 20 /BC7))
+    (pad 8 thru_hole oval (at 2.54 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 21 /PWREN#))
+    (pad 7 thru_hole oval (at 0 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 22 /DATA))
+    (pad 6 thru_hole oval (at 2.54 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 23 /CLK))
+    (pad 5 thru_hole oval (at 0 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 24 /CS))
+    (pad 4 thru_hole oval (at 2.54 2.54 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 1 GND))
+    (pad 3 thru_hole oval (at 0 2.54 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 2 +3V3))
+    (pad 2 thru_hole oval (at 2.54 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 1 GND))
+    (pad 1 thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 3 +5V))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x13_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (gr_line (start 110.49 80.07) (end 110.49 97.79) (layer F.SilkS) (width 0.12))
+  (gr_line (start 107.89 80.07) (end 107.89 97.73) (layer F.SilkS) (width 0.12))
+  (gr_text 3V3 (at 105.7 79.3 90) (layer F.SilkS) (tstamp 5FC36917)
+    (effects (font (size 0.7 0.7) (thickness 0.16)))
+  )
+  (gr_text 3V3 (at 105.7 98.4 90) (layer F.SilkS) (tstamp 5FC36914)
+    (effects (font (size 0.7 0.7) (thickness 0.16)))
+  )
+  (gr_text GND (at 108 98.6 90) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.16)))
+  )
+  (gr_line (start 105 104) (end 105 74) (layer Edge.Cuts) (width 0.05) (tstamp 5FC3065D))
+  (gr_line (start 142 104) (end 105 104) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 142 74) (end 142 104) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 105 74) (end 142 74) (layer Edge.Cuts) (width 0.05))
+
+  (segment (start 111.76 78.74) (end 111.71 78.74) (width 0.6) (layer F.Cu) (net 2))
+  (segment (start 109.22 96.47) (end 109.22 81.23) (width 1) (layer F.Cu) (net 0))
+  (segment (start 111.76 99.06) (end 114.3 99.06) (width 1) (layer F.Cu) (net 0))
+  (segment (start 109.22 101.6) (end 114.3 101.6) (width 1) (layer F.Cu) (net 0))
+  (segment (start 109.22 101.6) (end 106.68 101.6) (width 1) (layer F.Cu) (net 0))
+  (segment (start 111.76 99.06) (end 109.22 99.06) (width 1) (layer F.Cu) (net 0))
+  (segment (start 109.22 99.06) (end 109.22 96.47) (width 1) (layer F.Cu) (net 0))
+  (segment (start 106.68 93.08) (end 106.68 81.23) (width 1) (layer F.Cu) (net 0))
+  (segment (start 106.68 101.6) (end 106.68 93.08) (width 1) (layer F.Cu) (net 0))
+  (segment (start 114.3 101.6) (end 106.7 101.6) (width 1) (layer B.Cu) (net 0))
+  (segment (start 106.7 81.25) (end 106.68 81.23) (width 1) (layer B.Cu) (net 0))
+  (segment (start 106.7 101.6) (end 106.7 81.25) (width 1) (layer B.Cu) (net 0))
+  (segment (start 109.22 81.23) (end 109.22 99.06) (width 1) (layer B.Cu) (net 0))
+  (segment (start 109.22 99.06) (end 114.3 99.06) (width 1) (layer B.Cu) (net 0))
+
+)
