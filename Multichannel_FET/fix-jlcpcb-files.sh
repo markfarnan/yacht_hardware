@@ -4,9 +4,9 @@ set -euo pipefail
 shopt -s inherit_errexit
 
 DESTDIR=assembly
-BOMFILE=SH-ESP32.csv
-DESTBOMFILE=SH-ESP32-bom.csv
-CPLFILE=SH-ESP32-top-pos.csv
+BOMFILE=FET_Multi.csv
+DESTBOMFILE=FET_Multi-bom.csv
+CPLFILE=FET_Multi-top-pos.csv
 
 # move the BOM file in place
 mkdir -p $DESTDIR
