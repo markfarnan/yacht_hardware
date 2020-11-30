@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name FET_Multi)(type KiCad)(uri ${KIPRJMOD}/FET_Multi.pretty)(options "")(descr ""))
+)
