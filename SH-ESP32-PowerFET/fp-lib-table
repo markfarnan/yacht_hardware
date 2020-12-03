@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name yacht_hardware)(type KiCad)(uri /Users/mark/projects/yacht_hardware/yacht_hardware.pretty)(options "")(descr ""))
+)

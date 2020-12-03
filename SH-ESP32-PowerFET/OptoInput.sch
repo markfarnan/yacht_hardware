@@ -1,0 +1,462 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title "Power FET + Opto in - TopHat for SH_ESP32"
+Date "2020-11-25"
+Rev "0.1.0"
+Comp "Mark Farnan"
+Comment1 "https://creativecommons.org/licenses/by-sa/4.0"
+Comment2 "To view a copy of this license, visit "
+Comment3 "Sailor Hat for ESP32 is licensed under CC BY-SA 4.0."
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5FEBFC91
+P 5250 1750
+AR Path="/5FEBFC91" Ref="C?"  Part="1" 
+AR Path="/5F9BE197/5FEBFC91" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FEBFC91" Ref="C?"  Part="1" 
+AR Path="/5FEB8784/5FEBFC91" Ref="C301"  Part="1" 
+F 0 "C301" H 5365 1796 50  0000 L CNN
+F 1 "33pF" H 5365 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5288 1600 50  0001 C CNN
+F 3 "~" H 5250 1750 50  0001 C CNN
+F 4 "C1562" H 5250 1750 50  0001 C CNN "LCSC"
+	1    5250 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FEBFC98
+P 5700 1750
+AR Path="/5FEBFC98" Ref="C?"  Part="1" 
+AR Path="/5F9BE197/5FEBFC98" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FEBFC98" Ref="C?"  Part="1" 
+AR Path="/5FEB8784/5FEBFC98" Ref="C302"  Part="1" 
+F 0 "C302" H 5815 1796 50  0000 L CNN
+F 1 "33pF/50V" H 5815 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5738 1600 50  0001 C CNN
+F 3 "~" H 5700 1750 50  0001 C CNN
+F 4 "C1663" H 5700 1750 50  0001 C CNN "LCSC"
+	1    5700 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1600 5350 1600
+Connection ~ 5700 1600
+Wire Wire Line
+	5700 1600 5650 1600
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5FEBFCA2
+P 5500 1600
+AR Path="/5F89C30A/5FEBFCA2" Ref="FB?"  Part="1" 
+AR Path="/5F9BE197/5FEBFCA2" Ref="FB?"  Part="1" 
+AR Path="/5FB2AE13/5FEBFCA2" Ref="FB?"  Part="1" 
+AR Path="/5FEBFCA2" Ref="FB?"  Part="1" 
+AR Path="/5FEB8784/5FEBFCA2" Ref="FB301"  Part="1" 
+F 0 "FB301" V 5226 1600 50  0000 C CNN
+F 1 "GZ2012D101TF" V 5317 1600 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 5430 1600 50  0001 C CNN
+F 3 "~" H 5500 1600 50  0001 C CNN
+F 4 "C1015" H 5500 1600 50  0001 C CNN "LCSC"
+	1    5500 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:H11L1 U?
+U 1 1 5FEBFCB2
+P 3500 1700
+AR Path="/5FEBFCB2" Ref="U?"  Part="1" 
+AR Path="/5FEB8784/5FEBFCB2" Ref="U301"  Part="1" 
+F 0 "U301" H 3800 2100 50  0000 C CNN
+F 1 "H11L1SR2M" H 3750 2000 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-6_W9.53mm" H 3410 1700 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/H11L3M-D.PDF" H 3410 1700 50  0001 C CNN
+F 4 "C20082" H 3500 1700 50  0001 C CNN "LCSC"
+	1    3500 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FEBFCB9
+P 4100 1600
+AR Path="/5FEBFCB9" Ref="R?"  Part="1" 
+AR Path="/5FEB8784/5FEBFCB9" Ref="R302"  Part="1" 
+F 0 "R302" V 3893 1600 50  0000 C CNN
+F 1 "3k" V 3984 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4030 1600 50  0001 C CNN
+F 3 "~" H 4100 1600 50  0001 C CNN
+F 4 "C21190" H 4100 1600 50  0001 C CNN "LCSC"
+	1    4100 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FEBFCC0
+P 4600 1600
+AR Path="/5C348474/5FEBFCC0" Ref="D?"  Part="1" 
+AR Path="/5E460E30/5FEBFCC0" Ref="D?"  Part="1" 
+AR Path="/5F6FAF6E/5FEBFCC0" Ref="D?"  Part="1" 
+AR Path="/5F733BA4/5FEBFCC0" Ref="D?"  Part="1" 
+AR Path="/5FB2AE13/5FEBFCC0" Ref="D?"  Part="1" 
+AR Path="/5FEBFCC0" Ref="D?"  Part="1" 
+AR Path="/5FEB8784/5FEBFCC0" Ref="D302"  Part="1" 
+F 0 "D302" V 4550 1750 50  0000 C CNN
+F 1 "SM4007PL" V 4650 1850 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 4600 1600 50  0001 C CNN
+F 3 "~" H 4600 1600 50  0001 C CNN
+F 4 "C64898" H 4600 1600 50  0001 C CNN "LCSC"
+	1    4600 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1900 5700 1900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FEBFCC9
+P 3500 1300
+AR Path="/5FEBFCC9" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB8784/5FEBFCC9" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 3500 1150 50  0001 C CNN
+F 1 "+3.3V" H 3515 1473 50  0000 C CNN
+F 2 "" H 3500 1300 50  0001 C CNN
+F 3 "" H 3500 1300 50  0001 C CNN
+	1    3500 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2000 3500 2100
+Wire Wire Line
+	3500 1300 3500 1400
+$Comp
+L Device:LED D?
+U 1 1 5FEBFCD8
+P 2850 1400
+AR Path="/5FEBFCD8" Ref="D?"  Part="1" 
+AR Path="/5FC50B89/5FEBFCD8" Ref="D?"  Part="1" 
+AR Path="/5FEB8784/5FEBFCD8" Ref="D301"  Part="1" 
+F 0 "D301" V 2900 1850 50  0000 R CNN
+F 1 "GREEN LED" V 2800 1900 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 2850 1400 50  0001 C CNN
+F 3 "~" H 2850 1400 50  0001 C CNN
+F 4 "C72043" H 2850 1400 50  0001 C CNN "LCSC"
+	1    2850 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FEBFCDF
+P 2850 1100
+AR Path="/5FEBFCDF" Ref="R?"  Part="1" 
+AR Path="/5FC50B89/5FEBFCDF" Ref="R?"  Part="1" 
+AR Path="/5FEB8784/5FEBFCDF" Ref="R301"  Part="1" 
+F 0 "R301" H 2600 1150 50  0000 L CNN
+F 1 "1k" H 2700 1050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 1100 50  0001 C CNN
+F 3 "~" H 2850 1100 50  0001 C CNN
+F 4 "C21190" H 2850 1100 50  0001 C CNN "LCSC"
+	1    2850 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1700 2850 1550
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FEBFCE6
+P 2850 950
+AR Path="/5FEBFCE6" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB8784/5FEBFCE6" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 2850 800 50  0001 C CNN
+F 1 "+3.3V" H 2865 1123 50  0000 C CNN
+F 2 "" H 2850 950 50  0001 C CNN
+F 3 "" H 2850 950 50  0001 C CNN
+	1    2850 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1700 2850 1700
+Wire Wire Line
+	4450 1600 4250 1600
+Wire Wire Line
+	5250 1600 4750 1600
+Connection ~ 5250 1600
+Wire Wire Line
+	3800 1600 3950 1600
+Wire Wire Line
+	4450 1800 4450 1900
+Wire Wire Line
+	4450 1900 5250 1900
+Connection ~ 5250 1900
+Connection ~ 2850 1700
+Wire Wire Line
+	1400 1700 2850 1700
+Text GLabel 1400 1700 0    50   Input ~ 0
+OPTO_IN_1
+$Comp
+L power:GND #PWR0110
+U 1 1 5FD9C3A1
+P 3500 2100
+F 0 "#PWR0110" H 3500 1850 50  0001 C CNN
+F 1 "GND" H 3505 1927 50  0000 C CNN
+F 2 "" H 3500 2100 50  0001 C CNN
+F 3 "" H 3500 2100 50  0001 C CNN
+	1    3500 2100
+	1    0    0    -1  
+$EndComp
+Text Label 6200 1600 0    50   ~ 0
+ISO_IN_1
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5FDDC7FB
+P 7050 1600
+AR Path="/5FD9D92C/5FDDC7FB" Ref="J?"  Part="1" 
+AR Path="/5FEB8784/5FDDC7FB" Ref="J301"  Part="1" 
+F 0 "J301" H 7130 1592 50  0000 L CNN
+F 1 "OptoIn" H 7130 1501 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical" H 7050 1600 50  0001 C CNN
+F 3 "~" H 7050 1600 50  0001 C CNN
+	1    7050 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1600 6850 1600
+Connection ~ 5700 1900
+Wire Wire Line
+	3800 1800 4450 1800
+Wire Wire Line
+	6800 1900 6800 1700
+Wire Wire Line
+	6800 1700 6850 1700
+Wire Wire Line
+	5700 1900 6800 1900
+Text Label 6200 1900 0    50   ~ 0
+ISO_GND_1
+$Comp
+L Device:C C?
+U 1 1 5FCF7F32
+P 5200 3600
+AR Path="/5FCF7F32" Ref="C?"  Part="1" 
+AR Path="/5F9BE197/5FCF7F32" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FCF7F32" Ref="C?"  Part="1" 
+AR Path="/5FEB8784/5FCF7F32" Ref="C303"  Part="1" 
+F 0 "C303" H 5315 3646 50  0000 L CNN
+F 1 "33pF" H 5315 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5238 3450 50  0001 C CNN
+F 3 "~" H 5200 3600 50  0001 C CNN
+F 4 "C1562" H 5200 3600 50  0001 C CNN "LCSC"
+	1    5200 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FCF7F39
+P 5650 3600
+AR Path="/5FCF7F39" Ref="C?"  Part="1" 
+AR Path="/5F9BE197/5FCF7F39" Ref="C?"  Part="1" 
+AR Path="/5FB2AE13/5FCF7F39" Ref="C?"  Part="1" 
+AR Path="/5FEB8784/5FCF7F39" Ref="C304"  Part="1" 
+F 0 "C304" H 5765 3646 50  0000 L CNN
+F 1 "33pF/50V" H 5765 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 3450 50  0001 C CNN
+F 3 "~" H 5650 3600 50  0001 C CNN
+F 4 "C1663" H 5650 3600 50  0001 C CNN "LCSC"
+	1    5650 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3450 5300 3450
+Connection ~ 5650 3450
+Wire Wire Line
+	5650 3450 5600 3450
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5FCF7F43
+P 5450 3450
+AR Path="/5F89C30A/5FCF7F43" Ref="FB?"  Part="1" 
+AR Path="/5F9BE197/5FCF7F43" Ref="FB?"  Part="1" 
+AR Path="/5FB2AE13/5FCF7F43" Ref="FB?"  Part="1" 
+AR Path="/5FCF7F43" Ref="FB?"  Part="1" 
+AR Path="/5FEB8784/5FCF7F43" Ref="FB302"  Part="1" 
+F 0 "FB302" V 5176 3450 50  0000 C CNN
+F 1 "GZ2012D101TF" V 5267 3450 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 5380 3450 50  0001 C CNN
+F 3 "~" H 5450 3450 50  0001 C CNN
+F 4 "C1015" H 5450 3450 50  0001 C CNN "LCSC"
+	1    5450 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:H11L1 U?
+U 1 1 5FCF7F4A
+P 3450 3550
+AR Path="/5FCF7F4A" Ref="U?"  Part="1" 
+AR Path="/5FEB8784/5FCF7F4A" Ref="U302"  Part="1" 
+F 0 "U302" H 3750 3950 50  0000 C CNN
+F 1 "H11L1SR2M" H 3700 3850 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-6_W9.53mm" H 3360 3550 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/H11L3M-D.PDF" H 3360 3550 50  0001 C CNN
+F 4 "C20082" H 3450 3550 50  0001 C CNN "LCSC"
+	1    3450 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FCF7F51
+P 4050 3450
+AR Path="/5FCF7F51" Ref="R?"  Part="1" 
+AR Path="/5FEB8784/5FCF7F51" Ref="R304"  Part="1" 
+F 0 "R304" V 3843 3450 50  0000 C CNN
+F 1 "3k" V 3934 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3980 3450 50  0001 C CNN
+F 3 "~" H 4050 3450 50  0001 C CNN
+F 4 "C21190" H 4050 3450 50  0001 C CNN "LCSC"
+	1    4050 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FCF7F58
+P 4550 3450
+AR Path="/5C348474/5FCF7F58" Ref="D?"  Part="1" 
+AR Path="/5E460E30/5FCF7F58" Ref="D?"  Part="1" 
+AR Path="/5F6FAF6E/5FCF7F58" Ref="D?"  Part="1" 
+AR Path="/5F733BA4/5FCF7F58" Ref="D?"  Part="1" 
+AR Path="/5FB2AE13/5FCF7F58" Ref="D?"  Part="1" 
+AR Path="/5FCF7F58" Ref="D?"  Part="1" 
+AR Path="/5FEB8784/5FCF7F58" Ref="D304"  Part="1" 
+F 0 "D304" V 4500 3600 50  0000 C CNN
+F 1 "SM4007PL" V 4600 3700 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 4550 3450 50  0001 C CNN
+F 3 "~" H 4550 3450 50  0001 C CNN
+F 4 "C64898" H 4550 3450 50  0001 C CNN "LCSC"
+	1    4550 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3750 5650 3750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FCF7F5F
+P 3450 3150
+AR Path="/5FCF7F5F" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB8784/5FCF7F5F" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 3450 3000 50  0001 C CNN
+F 1 "+3.3V" H 3465 3323 50  0000 C CNN
+F 2 "" H 3450 3150 50  0001 C CNN
+F 3 "" H 3450 3150 50  0001 C CNN
+	1    3450 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3850 3450 3950
+Wire Wire Line
+	3450 3150 3450 3250
+$Comp
+L Device:LED D?
+U 1 1 5FCF7F68
+P 2800 3250
+AR Path="/5FCF7F68" Ref="D?"  Part="1" 
+AR Path="/5FC50B89/5FCF7F68" Ref="D?"  Part="1" 
+AR Path="/5FEB8784/5FCF7F68" Ref="D303"  Part="1" 
+F 0 "D303" V 2850 3700 50  0000 R CNN
+F 1 "GREEN LED" V 2750 3750 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 2800 3250 50  0001 C CNN
+F 3 "~" H 2800 3250 50  0001 C CNN
+F 4 "C72043" H 2800 3250 50  0001 C CNN "LCSC"
+	1    2800 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FCF7F6F
+P 2800 2950
+AR Path="/5FCF7F6F" Ref="R?"  Part="1" 
+AR Path="/5FC50B89/5FCF7F6F" Ref="R?"  Part="1" 
+AR Path="/5FEB8784/5FCF7F6F" Ref="R303"  Part="1" 
+F 0 "R303" H 2550 3000 50  0000 L CNN
+F 1 "1k" H 2650 2900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 2950 50  0001 C CNN
+F 3 "~" H 2800 2950 50  0001 C CNN
+F 4 "C21190" H 2800 2950 50  0001 C CNN "LCSC"
+	1    2800 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3550 2800 3400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FCF7F76
+P 2800 2800
+AR Path="/5FCF7F76" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB8784/5FCF7F76" Ref="#PWR0145"  Part="1" 
+F 0 "#PWR0145" H 2800 2650 50  0001 C CNN
+F 1 "+3.3V" H 2815 2973 50  0000 C CNN
+F 2 "" H 2800 2800 50  0001 C CNN
+F 3 "" H 2800 2800 50  0001 C CNN
+	1    2800 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3550 2800 3550
+Wire Wire Line
+	4400 3450 4200 3450
+Wire Wire Line
+	5200 3450 4700 3450
+Connection ~ 5200 3450
+Wire Wire Line
+	3750 3450 3900 3450
+Wire Wire Line
+	4400 3650 4400 3750
+Wire Wire Line
+	4400 3750 5200 3750
+Connection ~ 5200 3750
+Connection ~ 2800 3550
+Wire Wire Line
+	1350 3550 2800 3550
+Text GLabel 1350 3550 0    50   Input ~ 0
+OPTO_IN_2
+$Comp
+L power:GND #PWR0146
+U 1 1 5FCF7F87
+P 3450 3950
+F 0 "#PWR0146" H 3450 3700 50  0001 C CNN
+F 1 "GND" H 3455 3777 50  0000 C CNN
+F 2 "" H 3450 3950 50  0001 C CNN
+F 3 "" H 3450 3950 50  0001 C CNN
+	1    3450 3950
+	1    0    0    -1  
+$EndComp
+Text Label 6150 3450 0    50   ~ 0
+ISO_IN_2
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5FCF7F8E
+P 7000 3450
+AR Path="/5FD9D92C/5FCF7F8E" Ref="J?"  Part="1" 
+AR Path="/5FEB8784/5FCF7F8E" Ref="J302"  Part="1" 
+F 0 "J302" H 7080 3442 50  0000 L CNN
+F 1 "OptoIn" H 7080 3351 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical" H 7000 3450 50  0001 C CNN
+F 3 "~" H 7000 3450 50  0001 C CNN
+	1    7000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3450 6800 3450
+Connection ~ 5650 3750
+Wire Wire Line
+	3750 3650 4400 3650
+Wire Wire Line
+	6750 3750 6750 3550
+Wire Wire Line
+	6750 3550 6800 3550
+Wire Wire Line
+	5650 3750 6750 3750
+Text Label 6150 3750 0    50   ~ 0
+ISO_GND_2
+$EndSCHEMATC
