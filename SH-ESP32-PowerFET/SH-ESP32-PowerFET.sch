@@ -96,7 +96,7 @@ AR Path="/5F6FAF6E/603AA21B" Ref="J?"  Part="1"
 AR Path="/5FBE301B/603AA21B" Ref="J?"  Part="1" 
 AR Path="/603AA21B" Ref="J105"  Part="1" 
 F 0 "J105" H 2880 1292 50  0000 L CNN
-F 1 "MPDI" H 2880 1201 50  0000 L CNN
+F 1 "UPDI" H 2880 1201 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2800 1300 50  0001 C CNN
 F 3 "~" H 2800 1300 50  0001 C CNN
 F 4 "C376075" H 2800 1300 50  0001 C CNN "LCSC"
@@ -1304,4 +1304,14 @@ Wire Wire Line
 	6700 2600 6700 2500
 Wire Wire Line
 	5800 2600 6700 2600
+Text Label 1450 4350 0    50   ~ 0
+SWIN_1
+Text Label 1450 5200 0    50   ~ 0
+SWIN_2
+Text Label 1450 6200 0    50   ~ 0
+SWIN_3
+Text Label 1450 7050 0    50   ~ 0
+SWIN_4
+Text Label 2600 1800 0    50   ~ 0
+UPDI_LED
 $EndSCHEMATC
